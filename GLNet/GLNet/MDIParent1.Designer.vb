@@ -120,6 +120,7 @@ Partial Class MDIParent1
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.TmSMS = New System.Windows.Forms.Timer(Me.components)
         Me.BgwSMSSendingProcess = New System.ComponentModel.BackgroundWorker
+        Me.Button1 = New System.Windows.Forms.Button
         Me.MenuStrip.SuspendLayout()
         Me.StatusStrip.SuspendLayout()
         Me.SuspendLayout()
@@ -138,508 +139,508 @@ Partial Class MDIParent1
         '
         Me.mnuConfiguration.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuFYear, Me.FinancialYearStatusToolStripMenuItem, Me.MnuItemCompany, Me.ToolStripMenuItem3, Me.GLNotesToolStripMenuItem, Me.GLCostCenterToolStripMenuItem, Me.BackupDatabaseToolStripMenuItem, Me.ConfigurationToolStripMenuItem, Me.RegisterLightwaveOnlineToolStripMenuItem})
         Me.mnuConfiguration.Name = "mnuConfiguration"
-        Me.mnuConfiguration.Size = New System.Drawing.Size(84, 20)
+        Me.mnuConfiguration.Size = New System.Drawing.Size(93, 20)
         Me.mnuConfiguration.Text = "&Configuration"
         '
         'mnuFYear
         '
         Me.mnuFYear.Name = "mnuFYear"
-        Me.mnuFYear.Size = New System.Drawing.Size(199, 22)
+        Me.mnuFYear.Size = New System.Drawing.Size(211, 22)
         Me.mnuFYear.Text = "Financial Year"
         '
         'FinancialYearStatusToolStripMenuItem
         '
         Me.FinancialYearStatusToolStripMenuItem.Name = "FinancialYearStatusToolStripMenuItem"
-        Me.FinancialYearStatusToolStripMenuItem.Size = New System.Drawing.Size(199, 22)
+        Me.FinancialYearStatusToolStripMenuItem.Size = New System.Drawing.Size(211, 22)
         Me.FinancialYearStatusToolStripMenuItem.Text = "Financial Year Status"
         '
         'MnuItemCompany
         '
         Me.MnuItemCompany.Name = "MnuItemCompany"
-        Me.MnuItemCompany.Size = New System.Drawing.Size(199, 22)
+        Me.MnuItemCompany.Size = New System.Drawing.Size(211, 22)
         Me.MnuItemCompany.Text = "Company"
         '
         'ToolStripMenuItem3
         '
         Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(196, 6)
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(208, 6)
         '
         'GLNotesToolStripMenuItem
         '
         Me.GLNotesToolStripMenuItem.Name = "GLNotesToolStripMenuItem"
-        Me.GLNotesToolStripMenuItem.Size = New System.Drawing.Size(199, 22)
+        Me.GLNotesToolStripMenuItem.Size = New System.Drawing.Size(211, 22)
         Me.GLNotesToolStripMenuItem.Text = "GL Notes"
         '
         'GLCostCenterToolStripMenuItem
         '
         Me.GLCostCenterToolStripMenuItem.Name = "GLCostCenterToolStripMenuItem"
-        Me.GLCostCenterToolStripMenuItem.Size = New System.Drawing.Size(199, 22)
+        Me.GLCostCenterToolStripMenuItem.Size = New System.Drawing.Size(211, 22)
         Me.GLCostCenterToolStripMenuItem.Text = "GL Cost Center"
         '
         'BackupDatabaseToolStripMenuItem
         '
         Me.BackupDatabaseToolStripMenuItem.Name = "BackupDatabaseToolStripMenuItem"
-        Me.BackupDatabaseToolStripMenuItem.Size = New System.Drawing.Size(199, 22)
+        Me.BackupDatabaseToolStripMenuItem.Size = New System.Drawing.Size(211, 22)
         Me.BackupDatabaseToolStripMenuItem.Text = "Backup Database"
         '
         'ConfigurationToolStripMenuItem
         '
         Me.ConfigurationToolStripMenuItem.Name = "ConfigurationToolStripMenuItem"
-        Me.ConfigurationToolStripMenuItem.Size = New System.Drawing.Size(199, 22)
+        Me.ConfigurationToolStripMenuItem.Size = New System.Drawing.Size(211, 22)
         Me.ConfigurationToolStripMenuItem.Text = "Configuration"
         '
         'RegisterLightwaveOnlineToolStripMenuItem
         '
         Me.RegisterLightwaveOnlineToolStripMenuItem.Name = "RegisterLightwaveOnlineToolStripMenuItem"
-        Me.RegisterLightwaveOnlineToolStripMenuItem.Size = New System.Drawing.Size(199, 22)
+        Me.RegisterLightwaveOnlineToolStripMenuItem.Size = New System.Drawing.Size(211, 22)
         Me.RegisterLightwaveOnlineToolStripMenuItem.Text = "Register Lightwave Online"
         '
         'mnuShopActivities
         '
         Me.mnuShopActivities.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuSalesAndReturn, Me.mnuAccountTransacion, Me.mnuAccountLedger, Me.ToolStripSeparator1, Me.mnuPhysicalAudit})
         Me.mnuShopActivities.Name = "mnuShopActivities"
-        Me.mnuShopActivities.Size = New System.Drawing.Size(103, 20)
+        Me.mnuShopActivities.Size = New System.Drawing.Size(112, 20)
         Me.mnuShopActivities.Text = "Chart Of &Account"
         '
         'mnuSalesAndReturn
         '
         Me.mnuSalesAndReturn.Name = "mnuSalesAndReturn"
-        Me.mnuSalesAndReturn.Size = New System.Drawing.Size(155, 22)
+        Me.mnuSalesAndReturn.Size = New System.Drawing.Size(165, 22)
         Me.mnuSalesAndReturn.Text = "Main Account"
         '
         'mnuAccountTransacion
         '
         Me.mnuAccountTransacion.Name = "mnuAccountTransacion"
-        Me.mnuAccountTransacion.Size = New System.Drawing.Size(155, 22)
+        Me.mnuAccountTransacion.Size = New System.Drawing.Size(165, 22)
         Me.mnuAccountTransacion.Text = "Sub Account"
         '
         'mnuAccountLedger
         '
         Me.mnuAccountLedger.Name = "mnuAccountLedger"
-        Me.mnuAccountLedger.Size = New System.Drawing.Size(155, 22)
+        Me.mnuAccountLedger.Size = New System.Drawing.Size(165, 22)
         Me.mnuAccountLedger.Text = "Sub Sub Account"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(152, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(162, 6)
         '
         'mnuPhysicalAudit
         '
         Me.mnuPhysicalAudit.Name = "mnuPhysicalAudit"
-        Me.mnuPhysicalAudit.Size = New System.Drawing.Size(155, 22)
+        Me.mnuPhysicalAudit.Size = New System.Drawing.Size(165, 22)
         Me.mnuPhysicalAudit.Text = "Detail Account"
         '
         'mnuCustomerClubToolStripMenuItem
         '
         Me.mnuCustomerClubToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MnuCustomerCardPrinting, Me.MnuCustomerAddressBlockage, Me.MnuMemberCardsGeneration, Me.mnuPaymentVoucher, Me.mnuReceiptVoucher, Me.ToolStripMenuItem4, Me.TemporarayVoucherToolStripMenuItem, Me.TempVoucherPostingSearchingToolStripMenuItem, Me.ToolStripMenuItem5, Me.BankReconciliationToolStripMenuItem, Me.CustomerInfo})
         Me.mnuCustomerClubToolStripMenuItem.Name = "mnuCustomerClubToolStripMenuItem"
-        Me.mnuCustomerClubToolStripMenuItem.Size = New System.Drawing.Size(80, 20)
+        Me.mnuCustomerClubToolStripMenuItem.Size = New System.Drawing.Size(86, 20)
         Me.mnuCustomerClubToolStripMenuItem.Text = "&Transactions"
         '
         'MnuCustomerCardPrinting
         '
         Me.MnuCustomerCardPrinting.Name = "MnuCustomerCardPrinting"
-        Me.MnuCustomerCardPrinting.Size = New System.Drawing.Size(237, 22)
+        Me.MnuCustomerCardPrinting.Size = New System.Drawing.Size(258, 22)
         Me.MnuCustomerCardPrinting.Text = "Vouchers"
         '
         'MnuCustomerAddressBlockage
         '
         Me.MnuCustomerAddressBlockage.Name = "MnuCustomerAddressBlockage"
-        Me.MnuCustomerAddressBlockage.Size = New System.Drawing.Size(237, 22)
+        Me.MnuCustomerAddressBlockage.Size = New System.Drawing.Size(258, 22)
         Me.MnuCustomerAddressBlockage.Text = "Voucher Posting / Searching"
         '
         'MnuMemberCardsGeneration
         '
         Me.MnuMemberCardsGeneration.Name = "MnuMemberCardsGeneration"
-        Me.MnuMemberCardsGeneration.Size = New System.Drawing.Size(234, 6)
+        Me.MnuMemberCardsGeneration.Size = New System.Drawing.Size(255, 6)
         '
         'mnuPaymentVoucher
         '
         Me.mnuPaymentVoucher.Name = "mnuPaymentVoucher"
-        Me.mnuPaymentVoucher.Size = New System.Drawing.Size(237, 22)
+        Me.mnuPaymentVoucher.Size = New System.Drawing.Size(258, 22)
         Me.mnuPaymentVoucher.Text = "Payment Voucher"
         Me.mnuPaymentVoucher.Visible = False
         '
         'mnuReceiptVoucher
         '
         Me.mnuReceiptVoucher.Name = "mnuReceiptVoucher"
-        Me.mnuReceiptVoucher.Size = New System.Drawing.Size(237, 22)
+        Me.mnuReceiptVoucher.Size = New System.Drawing.Size(258, 22)
         Me.mnuReceiptVoucher.Text = "Receipt Voucher"
         Me.mnuReceiptVoucher.Visible = False
         '
         'ToolStripMenuItem4
         '
         Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(234, 6)
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(255, 6)
         Me.ToolStripMenuItem4.Visible = False
         '
         'TemporarayVoucherToolStripMenuItem
         '
         Me.TemporarayVoucherToolStripMenuItem.Name = "TemporarayVoucherToolStripMenuItem"
-        Me.TemporarayVoucherToolStripMenuItem.Size = New System.Drawing.Size(237, 22)
+        Me.TemporarayVoucherToolStripMenuItem.Size = New System.Drawing.Size(258, 22)
         Me.TemporarayVoucherToolStripMenuItem.Text = "Temporaray Voucher"
         '
         'TempVoucherPostingSearchingToolStripMenuItem
         '
         Me.TempVoucherPostingSearchingToolStripMenuItem.Name = "TempVoucherPostingSearchingToolStripMenuItem"
-        Me.TempVoucherPostingSearchingToolStripMenuItem.Size = New System.Drawing.Size(237, 22)
+        Me.TempVoucherPostingSearchingToolStripMenuItem.Size = New System.Drawing.Size(258, 22)
         Me.TempVoucherPostingSearchingToolStripMenuItem.Text = "Temp Voucher Posting / Searching"
         '
         'ToolStripMenuItem5
         '
         Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(234, 6)
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(255, 6)
         '
         'BankReconciliationToolStripMenuItem
         '
         Me.BankReconciliationToolStripMenuItem.Name = "BankReconciliationToolStripMenuItem"
-        Me.BankReconciliationToolStripMenuItem.Size = New System.Drawing.Size(237, 22)
+        Me.BankReconciliationToolStripMenuItem.Size = New System.Drawing.Size(258, 22)
         Me.BankReconciliationToolStripMenuItem.Text = "Bank Reconciliation"
         '
         'CustomerInfo
         '
         Me.CustomerInfo.Name = "CustomerInfo"
-        Me.CustomerInfo.Size = New System.Drawing.Size(237, 22)
+        Me.CustomerInfo.Size = New System.Drawing.Size(258, 22)
         Me.CustomerInfo.Text = "Customer Information"
         '
         'ReportsToolStripMenuItem
         '
         Me.ReportsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem8, Me.AccountLedgerToolStripMenuItem, Me.BankPositionToolStripMenuItem, Me.PostDatedChequesToolStripMenuItem, Me.TaxDeductionReportToolStripMenuItem, Me.GLVoucherToolStripMenuItem, Me.ToolStripMenuItem7, Me.TrilBalanceToolStripMenuItem, Me.ToolStripMenuItem11, Me.CashFlowStatementToolStripMenuItem, Me.ToolStripMenuItem9, Me.ProfitLossToolStripMenuItem, Me.ToolStripMenuItem13, Me.BalanceSheetToolStripMenuItem, Me.ToolStripMenuItem10, Me.mnuAgeingReceivable, Me.mnuAgeingPayable, Me.ToolStripMenuItem12, Me.DailyActivityReportToolStripMenuItem, Me.MainSubSubAccountMappingToolStripMenuItem, Me.GLVoucherHistoryToolStripMenuItem})
         Me.ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
-        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
+        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
         Me.ReportsToolStripMenuItem.Text = "&Reports"
         '
         'ToolStripMenuItem8
         '
         Me.ToolStripMenuItem8.Name = "ToolStripMenuItem8"
-        Me.ToolStripMenuItem8.Size = New System.Drawing.Size(223, 22)
+        Me.ToolStripMenuItem8.Size = New System.Drawing.Size(246, 22)
         Me.ToolStripMenuItem8.Text = "Chart of A/C (COA)"
         '
         'AccountLedgerToolStripMenuItem
         '
         Me.AccountLedgerToolStripMenuItem.Name = "AccountLedgerToolStripMenuItem"
-        Me.AccountLedgerToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.AccountLedgerToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.AccountLedgerToolStripMenuItem.Text = "Account Ledger"
         '
         'BankPositionToolStripMenuItem
         '
         Me.BankPositionToolStripMenuItem.Name = "BankPositionToolStripMenuItem"
-        Me.BankPositionToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.BankPositionToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.BankPositionToolStripMenuItem.Text = "Bank Position"
         '
         'PostDatedChequesToolStripMenuItem
         '
         Me.PostDatedChequesToolStripMenuItem.Name = "PostDatedChequesToolStripMenuItem"
-        Me.PostDatedChequesToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.PostDatedChequesToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.PostDatedChequesToolStripMenuItem.Text = "Post Dated Cheques"
         '
         'TaxDeductionReportToolStripMenuItem
         '
         Me.TaxDeductionReportToolStripMenuItem.Name = "TaxDeductionReportToolStripMenuItem"
-        Me.TaxDeductionReportToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.TaxDeductionReportToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.TaxDeductionReportToolStripMenuItem.Text = "Tax Deduction Report"
         '
         'GLVoucherToolStripMenuItem
         '
         Me.GLVoucherToolStripMenuItem.Name = "GLVoucherToolStripMenuItem"
-        Me.GLVoucherToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.GLVoucherToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.GLVoucherToolStripMenuItem.Text = "GL Voucher"
         '
         'ToolStripMenuItem7
         '
         Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
-        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(220, 6)
+        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(243, 6)
         '
         'TrilBalanceToolStripMenuItem
         '
         Me.TrilBalanceToolStripMenuItem.Name = "TrilBalanceToolStripMenuItem"
-        Me.TrilBalanceToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.TrilBalanceToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.TrilBalanceToolStripMenuItem.Text = "Trial Balance"
         '
         'ToolStripMenuItem11
         '
         Me.ToolStripMenuItem11.Name = "ToolStripMenuItem11"
-        Me.ToolStripMenuItem11.Size = New System.Drawing.Size(223, 22)
+        Me.ToolStripMenuItem11.Size = New System.Drawing.Size(246, 22)
         Me.ToolStripMenuItem11.Text = "Cash Flow Statement"
         '
         'CashFlowStatementToolStripMenuItem
         '
         Me.CashFlowStatementToolStripMenuItem.Name = "CashFlowStatementToolStripMenuItem"
-        Me.CashFlowStatementToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.CashFlowStatementToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.CashFlowStatementToolStripMenuItem.Text = "Cash and Bank Transactions"
         '
         'ToolStripMenuItem9
         '
         Me.ToolStripMenuItem9.Name = "ToolStripMenuItem9"
-        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(220, 6)
+        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(243, 6)
         '
         'ProfitLossToolStripMenuItem
         '
         Me.ProfitLossToolStripMenuItem.Name = "ProfitLossToolStripMenuItem"
-        Me.ProfitLossToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.ProfitLossToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.ProfitLossToolStripMenuItem.Text = "Profit && Loss"
         '
         'ToolStripMenuItem13
         '
         Me.ToolStripMenuItem13.Name = "ToolStripMenuItem13"
-        Me.ToolStripMenuItem13.Size = New System.Drawing.Size(223, 22)
+        Me.ToolStripMenuItem13.Size = New System.Drawing.Size(246, 22)
         Me.ToolStripMenuItem13.Text = "Profit && Loss Month Wise"
         '
         'BalanceSheetToolStripMenuItem
         '
         Me.BalanceSheetToolStripMenuItem.Name = "BalanceSheetToolStripMenuItem"
-        Me.BalanceSheetToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.BalanceSheetToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.BalanceSheetToolStripMenuItem.Text = "Balance Sheet"
         '
         'ToolStripMenuItem10
         '
         Me.ToolStripMenuItem10.Name = "ToolStripMenuItem10"
-        Me.ToolStripMenuItem10.Size = New System.Drawing.Size(220, 6)
+        Me.ToolStripMenuItem10.Size = New System.Drawing.Size(243, 6)
         '
         'mnuAgeingReceivable
         '
         Me.mnuAgeingReceivable.Name = "mnuAgeingReceivable"
-        Me.mnuAgeingReceivable.Size = New System.Drawing.Size(223, 22)
+        Me.mnuAgeingReceivable.Size = New System.Drawing.Size(246, 22)
         Me.mnuAgeingReceivable.Text = "Ageing Payable"
         '
         'mnuAgeingPayable
         '
         Me.mnuAgeingPayable.Name = "mnuAgeingPayable"
-        Me.mnuAgeingPayable.Size = New System.Drawing.Size(223, 22)
+        Me.mnuAgeingPayable.Size = New System.Drawing.Size(246, 22)
         Me.mnuAgeingPayable.Text = "Ageing Receivable"
         '
         'ToolStripMenuItem12
         '
         Me.ToolStripMenuItem12.Name = "ToolStripMenuItem12"
-        Me.ToolStripMenuItem12.Size = New System.Drawing.Size(220, 6)
+        Me.ToolStripMenuItem12.Size = New System.Drawing.Size(243, 6)
         '
         'DailyActivityReportToolStripMenuItem
         '
         Me.DailyActivityReportToolStripMenuItem.Name = "DailyActivityReportToolStripMenuItem"
-        Me.DailyActivityReportToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.DailyActivityReportToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.DailyActivityReportToolStripMenuItem.Text = "Daily Activity Report"
         '
         'MainSubSubAccountMappingToolStripMenuItem
         '
         Me.MainSubSubAccountMappingToolStripMenuItem.Name = "MainSubSubAccountMappingToolStripMenuItem"
-        Me.MainSubSubAccountMappingToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.MainSubSubAccountMappingToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.MainSubSubAccountMappingToolStripMenuItem.Text = "Main Sub Sub Account Mapping"
         '
         'GLVoucherHistoryToolStripMenuItem
         '
         Me.GLVoucherHistoryToolStripMenuItem.Name = "GLVoucherHistoryToolStripMenuItem"
-        Me.GLVoucherHistoryToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.GLVoucherHistoryToolStripMenuItem.Size = New System.Drawing.Size(246, 22)
         Me.GLVoucherHistoryToolStripMenuItem.Text = "GL Voucher History"
         '
         'mnuSecurityToolStrip
         '
         Me.mnuSecurityToolStrip.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuGroups, Me.mnuUsers, Me.mnuGroupRights, Me.ToolStripSeparator13, Me.mnuChangePass, Me.ToolStripMenuItem6, Me.LogViewerToolStripMenuItem})
         Me.mnuSecurityToolStrip.Name = "mnuSecurityToolStrip"
-        Me.mnuSecurityToolStrip.Size = New System.Drawing.Size(58, 20)
+        Me.mnuSecurityToolStrip.Size = New System.Drawing.Size(61, 20)
         Me.mnuSecurityToolStrip.Text = "Security"
         '
         'mnuGroups
         '
         Me.mnuGroups.Name = "mnuGroups"
-        Me.mnuGroups.Size = New System.Drawing.Size(160, 22)
+        Me.mnuGroups.Size = New System.Drawing.Size(168, 22)
         Me.mnuGroups.Text = "Groups"
         '
         'mnuUsers
         '
         Me.mnuUsers.Name = "mnuUsers"
-        Me.mnuUsers.Size = New System.Drawing.Size(160, 22)
+        Me.mnuUsers.Size = New System.Drawing.Size(168, 22)
         Me.mnuUsers.Text = "Users"
         '
         'mnuGroupRights
         '
         Me.mnuGroupRights.Name = "mnuGroupRights"
-        Me.mnuGroupRights.Size = New System.Drawing.Size(160, 22)
+        Me.mnuGroupRights.Size = New System.Drawing.Size(168, 22)
         Me.mnuGroupRights.Text = "Group Rights"
         '
         'ToolStripSeparator13
         '
         Me.ToolStripSeparator13.Name = "ToolStripSeparator13"
-        Me.ToolStripSeparator13.Size = New System.Drawing.Size(157, 6)
+        Me.ToolStripSeparator13.Size = New System.Drawing.Size(165, 6)
         '
         'mnuChangePass
         '
         Me.mnuChangePass.Name = "mnuChangePass"
-        Me.mnuChangePass.Size = New System.Drawing.Size(160, 22)
+        Me.mnuChangePass.Size = New System.Drawing.Size(168, 22)
         Me.mnuChangePass.Text = "Change Password"
         '
         'ToolStripMenuItem6
         '
         Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
-        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(157, 6)
+        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(165, 6)
         '
         'LogViewerToolStripMenuItem
         '
         Me.LogViewerToolStripMenuItem.Name = "LogViewerToolStripMenuItem"
-        Me.LogViewerToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
+        Me.LogViewerToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
         Me.LogViewerToolStripMenuItem.Text = "Log Viewer"
         '
         'mnuUtilities
         '
         Me.mnuUtilities.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuChangePassword, Me.SchemaSnapshotToolStripMenuItem, Me.SendSMSToolStripMenuItem, Me.SMSConfigurationToolStripMenuItem, Me.ContactDirectoryToolStripMenuItem, Me.ReIndexTablesDataBaseToolStripMenuItem, Me.DataTransferToolStripMenuItem})
         Me.mnuUtilities.Name = "mnuUtilities"
-        Me.mnuUtilities.Size = New System.Drawing.Size(53, 20)
+        Me.mnuUtilities.Size = New System.Drawing.Size(58, 20)
         Me.mnuUtilities.Text = "Utilities"
         '
         'mnuChangePassword
         '
         Me.mnuChangePassword.Name = "mnuChangePassword"
-        Me.mnuChangePassword.Size = New System.Drawing.Size(219, 22)
+        Me.mnuChangePassword.Size = New System.Drawing.Size(234, 22)
         Me.mnuChangePassword.Text = "Chart of Accounts Tempelates"
         '
         'SchemaSnapshotToolStripMenuItem
         '
         Me.SchemaSnapshotToolStripMenuItem.Name = "SchemaSnapshotToolStripMenuItem"
-        Me.SchemaSnapshotToolStripMenuItem.Size = New System.Drawing.Size(219, 22)
+        Me.SchemaSnapshotToolStripMenuItem.Size = New System.Drawing.Size(234, 22)
         Me.SchemaSnapshotToolStripMenuItem.Text = "Schema Snapshot"
         '
         'SendSMSToolStripMenuItem
         '
         Me.SendSMSToolStripMenuItem.Name = "SendSMSToolStripMenuItem"
-        Me.SendSMSToolStripMenuItem.Size = New System.Drawing.Size(219, 22)
+        Me.SendSMSToolStripMenuItem.Size = New System.Drawing.Size(234, 22)
         Me.SendSMSToolStripMenuItem.Text = "Send SMS"
         '
         'SMSConfigurationToolStripMenuItem
         '
         Me.SMSConfigurationToolStripMenuItem.Name = "SMSConfigurationToolStripMenuItem"
-        Me.SMSConfigurationToolStripMenuItem.Size = New System.Drawing.Size(219, 22)
+        Me.SMSConfigurationToolStripMenuItem.Size = New System.Drawing.Size(234, 22)
         Me.SMSConfigurationToolStripMenuItem.Text = "SMS Configuration"
         '
         'ContactDirectoryToolStripMenuItem
         '
         Me.ContactDirectoryToolStripMenuItem.Name = "ContactDirectoryToolStripMenuItem"
-        Me.ContactDirectoryToolStripMenuItem.Size = New System.Drawing.Size(219, 22)
+        Me.ContactDirectoryToolStripMenuItem.Size = New System.Drawing.Size(234, 22)
         Me.ContactDirectoryToolStripMenuItem.Text = "Contact Directory"
         '
         'ReIndexTablesDataBaseToolStripMenuItem
         '
         Me.ReIndexTablesDataBaseToolStripMenuItem.Name = "ReIndexTablesDataBaseToolStripMenuItem"
-        Me.ReIndexTablesDataBaseToolStripMenuItem.Size = New System.Drawing.Size(219, 22)
+        Me.ReIndexTablesDataBaseToolStripMenuItem.Size = New System.Drawing.Size(234, 22)
         Me.ReIndexTablesDataBaseToolStripMenuItem.Text = "ReIndex DataBase"
         '
         'DataTransferToolStripMenuItem
         '
         Me.DataTransferToolStripMenuItem.Name = "DataTransferToolStripMenuItem"
-        Me.DataTransferToolStripMenuItem.Size = New System.Drawing.Size(219, 22)
+        Me.DataTransferToolStripMenuItem.Size = New System.Drawing.Size(234, 22)
         Me.DataTransferToolStripMenuItem.Text = "Transfer GL Data"
         '
         'WindowToolStripMenuItem
         '
         Me.WindowToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuAboutCandela, Me.mnuReviewRelease, Me.ToolStripMenuItem1, Me.mnuCascade, Me.mnuTileHorizontal, Me.mnuTileVertical, Me.mnuArrangeIcons, Me.ToolStripMenuItem2, Me.mnuMinimizeAll, Me.mnuRestoreAll, Me.mnuCloseAll})
         Me.WindowToolStripMenuItem.Name = "WindowToolStripMenuItem"
-        Me.WindowToolStripMenuItem.Size = New System.Drawing.Size(57, 20)
+        Me.WindowToolStripMenuItem.Size = New System.Drawing.Size(63, 20)
         Me.WindowToolStripMenuItem.Text = "Window"
         '
         'mnuAboutCandela
         '
         Me.mnuAboutCandela.Name = "mnuAboutCandela"
-        Me.mnuAboutCandela.Size = New System.Drawing.Size(181, 22)
+        Me.mnuAboutCandela.Size = New System.Drawing.Size(187, 22)
         Me.mnuAboutCandela.Text = "About Lightwave"
         '
         'mnuReviewRelease
         '
         Me.mnuReviewRelease.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.mnuR1, Me.mnuR2, Me.mnuR3, Me.mnuR4, Me.mnuR5, Me.mnuseeall})
         Me.mnuReviewRelease.Name = "mnuReviewRelease"
-        Me.mnuReviewRelease.Size = New System.Drawing.Size(181, 22)
+        Me.mnuReviewRelease.Size = New System.Drawing.Size(187, 22)
         Me.mnuReviewRelease.Text = "Review Release Notes"
         '
         'mnuR1
         '
         Me.mnuR1.Name = "mnuR1"
-        Me.mnuR1.Size = New System.Drawing.Size(106, 22)
+        Me.mnuR1.Size = New System.Drawing.Size(109, 22)
         Me.mnuR1.Text = "R1"
         '
         'mnuR2
         '
         Me.mnuR2.Name = "mnuR2"
-        Me.mnuR2.Size = New System.Drawing.Size(106, 22)
+        Me.mnuR2.Size = New System.Drawing.Size(109, 22)
         Me.mnuR2.Text = "R2"
         '
         'mnuR3
         '
         Me.mnuR3.Name = "mnuR3"
-        Me.mnuR3.Size = New System.Drawing.Size(106, 22)
+        Me.mnuR3.Size = New System.Drawing.Size(109, 22)
         Me.mnuR3.Text = "R3"
         '
         'mnuR4
         '
         Me.mnuR4.Name = "mnuR4"
-        Me.mnuR4.Size = New System.Drawing.Size(106, 22)
+        Me.mnuR4.Size = New System.Drawing.Size(109, 22)
         Me.mnuR4.Text = "R4"
         '
         'mnuR5
         '
         Me.mnuR5.Name = "mnuR5"
-        Me.mnuR5.Size = New System.Drawing.Size(106, 22)
+        Me.mnuR5.Size = New System.Drawing.Size(109, 22)
         Me.mnuR5.Text = "R5"
         '
         'mnuseeall
         '
         Me.mnuseeall.Name = "mnuseeall"
-        Me.mnuseeall.Size = New System.Drawing.Size(106, 22)
+        Me.mnuseeall.Size = New System.Drawing.Size(109, 22)
         Me.mnuseeall.Text = "See All"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(178, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(184, 6)
         '
         'mnuCascade
         '
         Me.mnuCascade.Name = "mnuCascade"
-        Me.mnuCascade.Size = New System.Drawing.Size(181, 22)
+        Me.mnuCascade.Size = New System.Drawing.Size(187, 22)
         Me.mnuCascade.Text = "Cascade"
         '
         'mnuTileHorizontal
         '
         Me.mnuTileHorizontal.Name = "mnuTileHorizontal"
-        Me.mnuTileHorizontal.Size = New System.Drawing.Size(181, 22)
+        Me.mnuTileHorizontal.Size = New System.Drawing.Size(187, 22)
         Me.mnuTileHorizontal.Text = "Tile Horizontal"
         '
         'mnuTileVertical
         '
         Me.mnuTileVertical.Name = "mnuTileVertical"
-        Me.mnuTileVertical.Size = New System.Drawing.Size(181, 22)
+        Me.mnuTileVertical.Size = New System.Drawing.Size(187, 22)
         Me.mnuTileVertical.Text = "Tile Vertical"
         '
         'mnuArrangeIcons
         '
         Me.mnuArrangeIcons.Name = "mnuArrangeIcons"
-        Me.mnuArrangeIcons.Size = New System.Drawing.Size(181, 22)
+        Me.mnuArrangeIcons.Size = New System.Drawing.Size(187, 22)
         Me.mnuArrangeIcons.Text = "Arrange Icons"
         '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(178, 6)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(184, 6)
         '
         'mnuMinimizeAll
         '
         Me.mnuMinimizeAll.Name = "mnuMinimizeAll"
-        Me.mnuMinimizeAll.Size = New System.Drawing.Size(181, 22)
+        Me.mnuMinimizeAll.Size = New System.Drawing.Size(187, 22)
         Me.mnuMinimizeAll.Text = "Minimize All"
         '
         'mnuRestoreAll
         '
         Me.mnuRestoreAll.Name = "mnuRestoreAll"
-        Me.mnuRestoreAll.Size = New System.Drawing.Size(181, 22)
+        Me.mnuRestoreAll.Size = New System.Drawing.Size(187, 22)
         Me.mnuRestoreAll.Text = "Restore All"
         '
         'mnuCloseAll
         '
         Me.mnuCloseAll.Name = "mnuCloseAll"
-        Me.mnuCloseAll.Size = New System.Drawing.Size(181, 22)
+        Me.mnuCloseAll.Size = New System.Drawing.Size(187, 22)
         Me.mnuCloseAll.Text = "Close All"
         '
         'mnuLogOff
         '
         Me.mnuLogOff.Name = "mnuLogOff"
-        Me.mnuLogOff.Size = New System.Drawing.Size(55, 20)
+        Me.mnuLogOff.Size = New System.Drawing.Size(59, 20)
         Me.mnuLogOff.Text = "Log Off"
         '
         'StatusStrip
@@ -654,7 +655,7 @@ Partial Class MDIParent1
         'mdilblStatus
         '
         Me.mdilblStatus.Name = "mdilblStatus"
-        Me.mdilblStatus.Size = New System.Drawing.Size(38, 17)
+        Me.mdilblStatus.Size = New System.Drawing.Size(39, 17)
         Me.mdilblStatus.Text = "Status"
         '
         'mdiProgressBar
@@ -716,11 +717,21 @@ Partial Class MDIParent1
         'BgwSMSSendingProcess
         '
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(709, 0)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 9
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'MDIParent1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(966, 587)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MenuStrip)
         Me.Controls.Add(Me.StatusStrip)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
@@ -836,5 +847,6 @@ Partial Class MDIParent1
     Friend WithEvents BgwSMSSendingProcess As System.ComponentModel.BackgroundWorker
     Friend WithEvents ReIndexTablesDataBaseToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DataTransferToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 
 End Class
