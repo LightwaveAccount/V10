@@ -30,6 +30,7 @@ Partial Class rptViewer
         Me.txtSubject = New System.Windows.Forms.TextBox
         Me.Label1 = New System.Windows.Forms.Label
         Me.txtEmailTo = New System.Windows.Forms.TextBox
+        Me.Button2 = New System.Windows.Forms.Button
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -42,7 +43,7 @@ Partial Class rptViewer
         Me.CR.Location = New System.Drawing.Point(0, 0)
         Me.CR.Name = "CR"
         Me.CR.SelectionFormula = ""
-        Me.CR.Size = New System.Drawing.Size(1028, 744)
+        Me.CR.Size = New System.Drawing.Size(1028, 694)
         Me.CR.TabIndex = 0
         Me.CR.ViewTimeSelectionFormula = ""
         '
@@ -145,11 +146,21 @@ Partial Class rptViewer
         Me.txtEmailTo.Size = New System.Drawing.Size(240, 52)
         Me.txtEmailTo.TabIndex = 1
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(515, 37)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 6
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'rptViewer
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1028, 744)
+        Me.ClientSize = New System.Drawing.Size(1028, 694)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.lblEmail)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.CR)
@@ -173,4 +184,5 @@ Partial Class rptViewer
     Friend WithEvents txtSubject As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents txtEmailTo As System.Windows.Forms.TextBox
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 End Class
