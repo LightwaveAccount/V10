@@ -1,1 +1,2 @@
 C:\LightWave\GLNet\GLNet\bin\Debug\GLNet.exe.config
+C:\Git Demo\V10\GLNet\GLNet\bin\Debug\GLNet.exe.config
